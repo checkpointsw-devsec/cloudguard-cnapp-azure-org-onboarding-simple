@@ -1,6 +1,5 @@
-# CloudGuard CNAPP Azure Tenant Terraform Onboarding - CNAPP Only
-This Terraform project is intended to be used to onboard an entire Azure Tenant in one shot.     
-What it does is configure, via **Terraform**, an existing CloudGuard CSPM Portal and Azure environment that has multiple subscriptions.      
+# CloudGuard CNAPP Azure Tenant Terraform Onboarding - Check Point Only
+This Terraform project is intended to be used to onboard an entire Azure Tenant in one shot. What it does is configure, via **Terraform**, an existing CloudGuard CSPM Portal and Azure environment that has multiple subscriptions.      
  
 ## How to start?
 You would need to have a CloudGuard tenant, and you can create one via *Infinity Portal* by clicking the image below:      
