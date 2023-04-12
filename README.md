@@ -2,8 +2,7 @@
 This Terraform project is intended to be used to onboard an entire Azure Tenant in one shot. What it does is configure, via **Terraform**, an existing CloudGuard CSPM Portal and Azure environment that has multiple subscriptions.      
  
 ## How to start?
-You would need to have a CloudGuard tenant, and you can create one via *Infinity Portal* by clicking the image below:      
-[<img src=https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/images/checkpoint-logo.png>](https://portal.checkpoint.com/create-account)
+You would need to have a CloudGuard tenant, you can create one via *Infinity Portal* by clicking: [Register Here](https://portal.checkpoint.com/create-account)
 
 ## Get API credentials in your CloudGuard CNAPP Portal
 Then you will need to get the API credentials that you will be using with Terraform to onboard the accounts.
