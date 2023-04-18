@@ -12,14 +12,3 @@ resource "dome9_cloudaccount_azure" "connect-azure-subscription" {
   name                   = data.azurerm_subscriptions.available.subscriptions[count.index].display_name
   subscription_id        = data.azurerm_subscriptions.available.subscriptions[count.index].subscription_id
 }
-
-# Notifications to build Continuous Policies
-resource "dome9_continuous_compliance_notification" "system-console-alert" {
-  name           = "system-console-alert"
-  description    = "Notification to create continuous policies"
-  alerts_console = true
-
-  change_detection {
-    email_sending_state = "Disabled"
-  }
-}
